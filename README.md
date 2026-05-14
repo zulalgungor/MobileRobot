@@ -179,7 +179,7 @@ Bu değerler robotun sağa dönme, sola dönme veya düz ilerleme davranışlar�
 - 1 buton
 - Düşük karmaşıklık
 
-![Ortam 1](ortam1_rl.png)
+![ORTAM 1 GIF](ORTAM1_RL.gif)
 
 ---
 
@@ -189,7 +189,7 @@ Bu değerler robotun sağa dönme, sola dönme veya düz ilerleme davranışlar�
 - 3 buton
 - Orta karmaşıklık
 
-![Ortam 2](ortam2_rl.png)
+![ORTAM 2 GIF](ORTAM2_RL.gif)
 
 ---
 
@@ -199,7 +199,7 @@ Bu değerler robotun sağa dönme, sola dönme veya düz ilerleme davranışlar�
 - 4 buton
 - Yüksek karmaşıklık
 
-![Ortam 3](ortam3_rl.png)
+![ORTAM 3 GIF](ORTAM3_RL.gif)
 
 ---
 
