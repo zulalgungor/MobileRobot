@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env_venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated outputs
+out/
+
+# Trained model files
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
