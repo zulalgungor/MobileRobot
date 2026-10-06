@@ -1,10 +1,10 @@
 # MobileRobot
 
-## Task-Aware A* with DDQN-Guided Predictive Shielding for Sequential-Task Navigation in Dynamic Environments
+## Task-Aware Astar with DDQN-Guided Predictive Shielding for Sequential-Task Navigation in Dynamic Environments
 
 This repository contains the simulation, training, evaluation, and result files developed for a mobile robot navigation study in dynamic environments with sequential task constraints.
 
-The proposed framework combines **Task-Aware A*** global planning, a **Double Deep Q-Network (DDQN)** based local decision policy, and a **predictive safety shield** for dynamic obstacle avoidance.
+The proposed framework combines **Task-Aware Astar** global planning, a **Double Deep Q-Network (DDQN)** based local decision policy, and a **predictive safety shield** for dynamic obstacle avoidance.
 
 The system is evaluated in three simulated environments containing static obstacles, dynamic obstacles, buttons, and controlled doors.
 
@@ -37,8 +37,8 @@ Three navigation approaches are evaluated:
 
 | Method | Description |
 |---|---|
-| **Astar + DWA** | Astar global planning with standard Dynamic Window Approach local control |
-| **Astar + Predictive-DWA** | Astar global planning with predictive dynamic-obstacle handling |
+| **Astar + DWAstar* | Astar global planning with standard Dynamic Window Approach local control |
+| **Astar + Predictive-DWAstar* | Astar global planning with predictive dynamic-obstacle handling |
 | **Task-Aware Astar + DDQN-Guided Predictive Shielding** | Proposed hybrid learning and safety architecture |
 
 ---
@@ -409,7 +409,7 @@ Continuous navigation metrics are analyzed on successful trials.
 
 The following success rates were obtained in the main evaluation:
 
-| Environment | A* + DWA | A* + Predictive-DWA | Proposed |
+| Environment | Astar + DWA | Astar + Predictive-DWA | Proposed |
 |---|---:|---:|---:|
 | Environment 1 | 79.0% | 94.3% | **99.0%** |
 | Environment 2 | 15.8% | 48.0% | **87.2%** |
@@ -417,7 +417,7 @@ The following success rates were obtained in the main evaluation:
 
 Collision rates were:
 
-| Environment | A* + DWA | A* + Predictive-DWA | Proposed |
+| Environment | Astar + DWA | Astar + Predictive-DWA | Proposed |
 |---|---:|---:|---:|
 | Environment 1 | 21.0% | 5.7% | **1.0%** |
 | Environment 2 | 84.2% | 52.0% | **12.8%** |
@@ -519,11 +519,11 @@ The main manuscript results reported in this repository correspond to the princi
 
 This repository accompanies the unpublished manuscript:
 
-**“Task-Aware A* with DDQN-Guided Predictive Shielding for Sequential-Task Navigation in Dynamic Environments”**
+**“Task-Aware Astar with DDQN-Guided Predictive Shielding for Sequential-Task Navigation in Dynamic Environments”**
 
 Turkish title:
 
-**“Dinamik Ortamlarda Sıralı Görev Navigasyonu için Görev Farkındalıklı A* ile DDQN Rehberli Öngörülü Güvenlik Kalkanı”**
+**“Dinamik Ortamlarda Sıralı Görev Navigasyonu için Görev Farkındalıklı Astar ile DDQN Rehberli Öngörülü Güvenlik Kalkanı”**
 
 The manuscript has not yet been published.
 
